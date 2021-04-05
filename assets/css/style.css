@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Maven Pro', sans-serif;
+}
+::placeholder{
+  background-image: linear-gradient( 110.1deg,  rgba(34,126,34,0.8) 2.9%, rgba(168,251,60,1) 90.3% );!important;
+  color: rgba(87, 101, 116,0.6)!important;
+  text-align: center;
+}
+.fas,.far{
+	color: #34495e;
+}
+.input-group-text{
+	background-image: linear-gradient( 110.1deg,  rgba(34,126,34,1) 2.9%, rgba(168,251,60,1) 90.3% );!important;
+}
+body{
+	height: 100vh;
+	background:linear-gradient(to right, #56ab2f, #a8e063);
+}
+.wrapper{
+	height: 100vh;
+}
+.left-side{
+	background-image: linear-gradient( 110.1deg,  rgba(34,126,34,1) 2.9%, rgba(168,251,60,1) 90.3% );
+}
+.myColor{
+	background-image: linear-gradient( 109.7deg,  rgba(202,50,50,1) 5.7%, rgba(252,195,12,1) 92.4% );
+}
+.myShadow{
+	box-shadow: 0 5px 10px #111;
+}
+.myBtn{
+	width: 50%;
+	border-radius: 50px;
+	font-weight: bold;
+	font-size: 1.3rem;
+	background-image: linear-gradient( 109.7deg,  rgba(202,50,50,1) 5.7%, rgba(252,195,12,1) 92.4% );
+	border: none;
+	transition: 2s;
+}
+.myBtn:hover{
+	transform: scale(1.2);
+}
+.myHr{
+	height: 2px;
+	border-radius: 100px;
+}
+.myLinkBtn{
+	border-radius: 100px;
+	width: 50%;
+	border: 2px solid #fff;
+	transition: 2s;
+}
+.myLinkBtn:hover{
+	transform: scale(1.2);
+}
+
+/*HomePage*/
+
+
+@media(max-width: 720px){
+	.wrapper{
+		margin: 2px;
+	}
+}
+
+/*Sweet alert*/
+/*.swal2-popup {
+    background-color: #CFCCC7!important;
+}*/
